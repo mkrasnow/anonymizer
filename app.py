@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 import string
 import random
 
-app = Flask(anoncode)
+app = Flask(__name__)
 
 SAVE_FILE = "codesf25.csv"
 
